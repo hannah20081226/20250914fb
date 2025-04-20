@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="map.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="map.js"></script>
+</head>
+
+<body>
+    <div class="events">
+        <p class="events1">
+            MAP
+        </p>
+        <p class="events2">
+            校内マップ
+        </p>
+    </div>
+
+    <div class="tab-container">
+        <button class="tab-button active" onclick="changeImage(0)">校舎</button>
+        <button class="tab-button" onclick="changeImage(1)">B1-2F</button>
+        <button class="tab-button" onclick="changeImage(2)">3F</button>
+        <button class="tab-button" onclick="changeImage(3)">4F</button>
+        <button class="tab-button" onclick="changeImage(4)">5F</button>
+        <button class="tab-button" onclick="changeImage(5)">その他</button>
+    </div>
+
+    <!-- 画像表示エリア -->
+
+    <div class="image-container">
+        <img src="img/school.png" class="active" alt="b1">
+        <img src="img/1f.png" alt="1">
+        <img src="img/3f.png" alt="2">
+        <img src="img/4f.png" alt="3">
+        <img src="img/5f.png" alt="4">
+        <img src="img/sonota.png" alt="4">
+    </div>
+
+    <div class="bottom-tab">
+        <a href="map.html">
+            <div class="tab-item">
+                <i class="fas fa-map"></i>
+                <img src="img/location.svg">
+                <span>map</span>
+            </div>
+        </a>
+        <a href="index.html">
+            <div class="tab-item2">
+                <i class="fas fa-home"></i>
+                <img src="img/home.svg" width="30px">
+                <span>home</span>
+            </div>
+        </a>
+        <a href="schedule.html">
+            <div class="tab-item">
+                <i class="fas fa-clock"></i>
+                <img src="img/schedule.svg">
+                <span>schedule</span>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>

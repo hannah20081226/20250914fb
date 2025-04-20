@@ -1,0 +1,131 @@
+@media (max-width: 600px) {
+
+    * {
+       box-sizing:border-box;
+       margin:0;
+       padding:0;
+   }
+       
+   body {
+       margin:0;
+       padding:0;
+       background-color: #D7FBFE;
+       height:1720px;
+   }
+   
+   .events {
+       margin-top:70px;
+   }
+   
+   .events1 {
+       font-size: 47px;
+       margin-left: 7%;
+       font-style: italic;
+       color: #99E8EF;
+   }
+   
+   .events2 {
+       font-size: 25px;
+       margin-left: 8%;
+       margin-top: -28px;
+       font-weight: bold;
+       font-family: 'Courier New', Courier, monospace
+   
+   }
+
+   .day {
+    display: flex;
+    justify-content: center;
+   }
+
+   .day1 {
+    background-color: white;
+    width:280px;
+    height:auto;
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding:20px;
+   }
+
+   .bottom-tab {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    background: #F3FBFF;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), 
+                -4px -4px 10px rgba(255, 255, 255, 0.6);
+    margin-bottom:20px;
+    z-index: 1000;
+}
+
+.tab-item {
+    width: 60px;
+    height: 60px;
+    background: #14325c;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+    font-style: italic;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2), 
+                -5px -5px 8px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    margin-top:5px;
+}
+
+.tab-item i {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.tab-item:hover {
+    transform: scale(1.1);
+}
+
+.tab-item2 {
+    width: 70px;
+    height: 70px;
+    background: #14325c;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 9px;
+    font-style: italic;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2), 
+                -5px -5px 8px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.tab-item3 {
+    width: 60px;
+    height: 60px;
+    background: #14325c;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+    font-style: italic;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2), 
+                -5px -5px 8px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    margin-top:5px;
+}
+}
